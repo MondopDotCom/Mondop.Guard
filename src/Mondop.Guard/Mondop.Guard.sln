@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mondop.Guard", "Mondop.Guard\Mondop.Guard.csproj", "{B92785E3-9923-4363-9B0B-A4E8B2C39157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mondop.Guard.Tests", "Mondop.Guard.Tests\Mondop.Guard.Tests.csproj", "{A6505F32-0A5A-46A5-8DB0-0DC06DEDE128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B92785E3-9923-4363-9B0B-A4E8B2C39157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92785E3-9923-4363-9B0B-A4E8B2C39157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92785E3-9923-4363-9B0B-A4E8B2C39157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92785E3-9923-4363-9B0B-A4E8B2C39157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6505F32-0A5A-46A5-8DB0-0DC06DEDE128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6505F32-0A5A-46A5-8DB0-0DC06DEDE128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6505F32-0A5A-46A5-8DB0-0DC06DEDE128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6505F32-0A5A-46A5-8DB0-0DC06DEDE128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB3534F8-0B37-4BC3-A839-93CAE4901453}
+	EndGlobalSection
+EndGlobal

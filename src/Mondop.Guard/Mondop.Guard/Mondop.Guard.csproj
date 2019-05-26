@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Authors>Marcel Vroone</Authors>
+    <Company>It-actief</Company>
+    <Product>Mondop</Product>
+    <Copyright>Copyright 2019 by It-actief</Copyright>
+    <Description>Package containing guardsl to check for errors in constructors</Description>
+    <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Guard</RepositoryUrl>
+    <PackageReleaseNotes>1.0.0 - Added Ensure.IsNotNull</PackageReleaseNotes>
+    <PackageLicenseExpression><license type="expression">Apache-2.0</license></PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>

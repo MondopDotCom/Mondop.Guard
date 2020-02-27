@@ -10,9 +10,10 @@
     <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Guard</RepositoryUrl>
     <PackageReleaseNotes>1.0.0 - Added Ensure.IsNotNull
-1.0.1 - Added Multiple targets</PackageReleaseNotes>
+1.0.1 - Added Multiple targets
+1.0.2 - Added Ensure.Is</PackageReleaseNotes>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 

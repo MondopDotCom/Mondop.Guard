@@ -12,6 +12,14 @@ namespace Mondop.Guard
             return argument;
         }
 
+        public static TArg Is<TArg>(object argument,string name)
+        {
+            if (argument is TArg)
+                return (TArg)argument;
+
+            throw new ArgumentException($"Unable to cast {name} of type {argument.GetType().FullName} to {typeof(TArg).FullName}");
+        }
+
         public static string IsNotNullOrEmpty(this string argument,string name)
         {
             if (argument == null)

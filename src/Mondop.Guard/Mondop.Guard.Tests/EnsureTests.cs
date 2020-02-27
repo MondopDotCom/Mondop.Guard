@@ -90,5 +90,35 @@ namespace Mondop.Guard.Tests
             action.Should().ThrowExactly<ArgumentException>();
         }
 
+        [TestMethod]
+        public void Call_IsWithCorrectType_Expect_AssignedResult()
+        {
+            object tmp = new TestPoco();
+
+            var result = Ensure.Is<TestPoco>(tmp, nameof(tmp));
+
+            result.Should().BeOfType<TestPoco>();
+        }
+
+        [TestMethod]
+        public void Call_IsWithCorrectInherited_Expect_AssignedResult()
+        {
+            TestPoco tmp = new TestPocoB();
+
+            var result = Ensure.Is<TestPocoB>(tmp, nameof(tmp));
+
+            result.Should().BeOfType<TestPocoB>();
+        }
+
+        [TestMethod]
+        public void Call_IsWithInCorrectType_Expect_AssignedResult()
+        {
+            object tmp = new TestPocoC();
+
+            Action action = () => Ensure.Is<TestPocoB>(tmp, nameof(tmp));
+
+            action.Should().ThrowExactly<ArgumentException>();
+        }
+
     }
 }
